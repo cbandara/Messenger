@@ -1,8 +1,8 @@
 import React from "react";
-import Sidebar from "./Sidebar";
-import Main from "./Main";
+import Sidebar from "../components/Sidebar";
+import Main from "../components/Main";
 import "./App.css";
-import { contacts } from "./static-data";
+import { contacts } from "../static-data";
 const _ = require("lodash");
 
 const App = () => {

@@ -3,7 +3,7 @@ const txtgen = require("txtgen");
 const faker = require("faker");
 const _ = require("lodash");
 
-const users = generateUsers(10);
+const users = generateUsers(16);
 export const contacts = _.mapKeys(users, "user_id");
 export const getMessages = messagesPerUser => {
   let messages = {};
